@@ -34,3 +34,18 @@ the weighted sum of w  and x is using the dot product of wT and x . The transpos
 ![image](https://user-images.githubusercontent.com/16449922/71541752-c6bdbf00-2983-11ea-8590-5d68a3f1dd5b.png)
 
 
+##### The 'sign function' is similar to the step function - it outputs +1 when the input is greater than 0 and -1 otherwise. In a binary classification setting, +1 and -1 represent the two classes.
+
+
+![image](https://user-images.githubusercontent.com/16449922/71620205-a7769a00-2bee-11ea-8d88-e04511c69c62.png)
+
+
+![image](https://user-images.githubusercontent.com/16449922/71620243-d3921b00-2bee-11ea-80e1-731431f6f49d.png)
+
+where yit.xit
+ is the error term. It is important to note here that xit
+ in this iterative procedure is a misclassified data point and 
+yit is the corresponding true label. Also, note that the dot in yit.xit is not a dot product. 
+
+
+
